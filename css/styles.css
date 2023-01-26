@@ -1038,6 +1038,17 @@ body {
     padding-top: 24px;
     padding-bottom: 24px;
   }
+
+  ..vissually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
   
   .logo {
     font-family: var(--secondary-font);
@@ -1227,6 +1238,23 @@ body {
   .social-list-icon {
     fill: var(--cloud-light-mode-color);
   }
+
+  .benefits-item-icon {
+    display: none;
+  }
+
+  .benefits-list {
+    display: block;
+  }
+
+  .frequently-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  
+    color: var(--navy-blue-dark-color);
+  }
+
 }
 
 
