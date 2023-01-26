@@ -22,9 +22,8 @@
     <header class="page-header">
       <div class="container header-div">
         <nav class="page-nav">
-          <a class="logo logo-header link" href="./index.html"
-            ><span class="logo-web">Web</span>Studio</a
-          >
+          <a class="logo logo-header link" href="./index.html">
+            <span class="logo-web">Web</span>Studio</a>
           <ul class="menu-nav list">
             <li class="menu-item">
               <a class="menu-link link studio-after" href="./index.html"
@@ -53,7 +52,80 @@
             </li>
           </ul>
         </address>
+        <button class="mobile-menu__open-btn" data-menu-open>
+          <svg class="footer-form-submit-icon" width="24" height="24">
+            <use href="./images/svg/sprite.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
+    <!-- MOBILE MENU -->
+      <div class="mobile-menu is-open" data-menu>
+        <div class="container mobile-menu__container">
+          <button class="mobile-menu__close-btn" data-menu-close>
+            <svg class="mobile-menu__close-icon" width="8" height="8">
+              <use href="./images/svg/sprite.svg#icon-vector"></use>
+            </svg>
+          </button>
+          <ul class="menu-nav-mobile list">
+            <li class="menu-nav-mobile__item">
+              <a class="menu-link-mobile link" href="./index.html">Studio</a>
+            </li>
+            <li class="menu-nav-mobile__item">
+              <a class="menu-link-mobile link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="menu-nav-mobile__item">
+              <a class="menu-link-mobile link mobile-cont" href="">Contacts</a>
+            </li>
+          </ul>
+          <address class="address-mobile">
+            <ul class="address-mobile-menu list">
+              <li class="address-mobile-menu__item phone">
+                <a class="contact-phone-number link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="address-mobile-menu__item email">
+                <a class="contact-mail link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="mobile-menu__social-list list">
+            <li class="mobile-menu__social-list-item">
+              <a href="" class="social-list-link">
+                <svg class="social-list-icon" width="16" height="16">
+                  <use
+                    href="./images/svg/sprite.svg#icon-instagram"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-menu__social-list-item">
+              <a href="" class="social-list-link">
+                <svg class="social-list-icon" width="16" height="16">
+                  <use href="./images/svg/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-menu__social-list-item">
+              <a href="" class="social-list-link">
+                <svg class="social-list-icon" width="16" height="16">
+                  <use href="./images/svg/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-menu__social-list-item">
+              <a href="" class="social-list-link">
+                <svg class="social-list-icon" width="16" height="16">
+                  <use href="./images/svg/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- /MOBILE MENU -->
     </header>
     <!-- /HEADER -->
     <main>
@@ -68,7 +140,7 @@
       </section>
       <!-- /HERO -->
       <!-- BENEFITS -->
-      <section>
+      <!-- <section>
         <div class="container benefits-div">
           <h2 class="vissually-hidden">Benefits</h2>
           <ul class="benefits-list list">
@@ -122,10 +194,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- /BENEFITS -->
       <!-- WORK -->
-      <section>
+      <!-- <section>
         <div class="container work-div">
           <h2 class="secondary-title work-title">What are we doing</h2>
           <ul class="work-list list">
@@ -155,10 +227,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- /WORK -->
       <!-- TEAM -->
-      <section class="team-section">
+      <!-- <section class="team-section">
         <div class="container team-div">
           <h2 class="secondary-title team-header">Our Team</h2>
           <ul class="team-list list">
@@ -340,10 +412,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- /TEAM -->
       <!-- CUSTOMERS -->
-      <section class="customers-section">
+      <!-- <section class="customers-section">
         <div class="container customers-div">
           <h2 class="header-customers">Customers</h2>
           <ul class="customers-list list">
@@ -391,11 +463,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- /CUSTOMERS -->
     </main>
     <!-- FOOTER -->
-    <footer>
+    <!-- <footer>
       <section class="footer-section">
         <div class="container footer-div">
           <div class="footer-div-left">
@@ -460,9 +532,9 @@
           </div>
         </div>
       </section>
-    </footer>
+    </footer> -->
     <!-- /FOOTER -->
-    <div class="backdrop is is-hidden" data-modal>
+    <!-- <div class="backdrop is is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-class-btn-icon" width="8" height="8">
@@ -520,6 +592,7 @@
         </form>
       </div>
     </div>
-    <script src="./js/modal.js"></script>
+    <script src="./js/modal.js"></script> -->
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
