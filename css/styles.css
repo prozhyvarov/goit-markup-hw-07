@@ -78,7 +78,7 @@ body {
 @media screen and (max-width: 767px) {
 
   .container {
-    min-width: 448px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -104,6 +104,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
   }
 
   .mobile-menu-open {
@@ -152,9 +153,13 @@ body {
 
   .mobile-menu__container {
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
     padding-top: 80px;
     padding-bottom: 40px;
     padding-left: 24px;
+    height: 100%;
 
   }
 
@@ -216,9 +221,6 @@ body {
     color: var(--ocean-pressed-state-color);
   }
   
-  .mobile-address {
-    margin-top: 284px;
-  }
   .menu-address_item:not(:last-child) {
     margin-bottom: 40px;
   }
@@ -280,7 +282,7 @@ body {
     gap: 56px;
     margin-top: 48px;
   }  
-  
+
   .social-list-icon {
     fill: var(--cloud-light-mode-color);
   }
@@ -315,11 +317,14 @@ body {
     }
 
   .hero-div {
+    width: 100%;
     padding-top: 112px;
     padding-bottom: 112px;
   }
 
   .hero-title {
+    min-width: 260px;
+    max-width: 320px;
     font-size: 36px;
     line-height: 1.11;
 
@@ -370,6 +375,7 @@ body {
   .benefits-div {
     display: flex;
     justify-content: center;
+    width: 100%;
 
     padding-top: 96px;
     padding-bottom: 96px;
@@ -445,6 +451,7 @@ body {
   .team-div {
     padding-top: 96px;
     padding-bottom: 128px;
+    width: 100%;
   }
 
 
@@ -525,6 +532,7 @@ body {
 
   /*=========================CUSTOMERS=========================*/
   .customers-div {
+    width: 100%;
     padding-top: 96px;
     padding-bottom: 96px;
   }
@@ -545,6 +553,7 @@ body {
     display: flex;
     gap: 16px;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .customers-list-item {
@@ -586,7 +595,7 @@ body {
   }
 
   .footer-div {
-  
+    width: 100%;
     padding-top: 100px;
     padding-bottom: 100px;
   }
@@ -669,12 +678,13 @@ body {
   }
 
   .footer-form-input {
-    width: 396px;
+   width: 100%;
     height: 40px;
     padding-left: 16px;
     padding-right: 16px;
     padding-bottom: 8px;
     padding-top: 8px;
+
 
     margin-left: auto;
     margin-right: auto;
