@@ -278,13 +278,20 @@ body {
   }
 
   .social-list-mobile-menu {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
-    gap: 56px;
+    gap: 40px;
     margin-top: 48px;
   }  
 
   .social-list-icon {
     fill: var(--cloud-light-mode-color);
+  }
+
+  .mobile-down {
+    width: 100%;
   }
 
 /*=========================/HEADER=========================*/
