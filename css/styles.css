@@ -78,7 +78,7 @@ body {
 @media screen and (max-width: 767px) {
 
   .container {
-    width: 428px;
+    width: 448px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -211,6 +211,10 @@ body {
   .menu-item:not(:last-child) {
     margin-bottom: 40px;
   }
+
+  .studio-after {
+    color: var(--ocean-pressed-state-color);
+  }
   
   .mobile-address {
     margin-top: 284px;
@@ -273,7 +277,6 @@ body {
 
   .social-list-mobile-menu {
     display: flex;
-    justify-content: center;
     gap: 56px;
     margin-top: 48px;
   }  
@@ -287,7 +290,7 @@ body {
 /*=========================HERO=========================*/
 
   .hero {
-    max-width: 428px;
+    min-width: 320px;
     margin-left: auto;
     margin-right: auto;
     background-image: linear-gradient(
@@ -324,7 +327,6 @@ body {
 
     color: var(--clean-white);
     margin-bottom: 72px;
-    width: 320px;
     margin-left: auto;
     margin-right: auto;
   }
