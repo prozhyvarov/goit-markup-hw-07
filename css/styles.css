@@ -465,6 +465,7 @@ body {
   .team-list {
     display: flex;
     flex-wrap: wrap;
+    row-gap: 72px;
   
   }
 
@@ -558,14 +559,15 @@ body {
   
   .customers-list {
     display: flex;
-    gap: 16px;
+    row-gap: 72px;
+    column-gap: 16px;
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  .customers-list-item {
+  /* .customers-list-item {
     margin-bottom: 72px;
-  }
+  } */
   
   .customers-link {
     display: flex;
@@ -1078,7 +1080,8 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 64px;
   }
 
   .team-header {
@@ -1174,9 +1177,11 @@ body {
   .customers-list {
     display: flex;
     flex-wrap: wrap;
+    row-gap: 0;
     justify-content: center;
     align-items: center;
-    gap: 24px;
+    row-gap: 72px;
+    column-gap: 24px;
   }
 
   .customers-link {
